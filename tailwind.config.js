@@ -14,5 +14,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/topography'),require("daisyui")],
 }
