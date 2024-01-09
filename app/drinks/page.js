@@ -1,10 +1,10 @@
-const url = 'https://vinepair.com/articles/50-most-popular-cocktails-world-2017/'
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a';
 
 const fetchDrinks = async () => {
   await new Promise ((resolve) => setTimeout (resolve,1000));
   const response = await fetch(url);
   const data = await response.json();
-  return DataTransferItemList
+  return data;
 }
 
 const DrinksPage = async () => {
